@@ -22,13 +22,19 @@ Demo from this repository:
 
 ```json
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+      "id": 1,
+      "userprofilepicture": "https://randomuser.me/api/portraits/women/89.jpg",
+      "name": "Leanne Graham",
+      "age": "27",
+      "status": "Single",
+      "username": "Bret",
+      "gender": "female",
+      "email": "Sincere@april.biz",
+      "address": {
+        "city": "Gwenborough"
+      },
+      "phone": "1-770-736-8031 ",
+      "interests": "swimming"
 }
 ```
 
